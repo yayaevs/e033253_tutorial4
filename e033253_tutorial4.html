@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+    <title>JavaScript Tutorial 4</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            text-align: center;
+        }
+        h1 {
+            color: #38839c;
+        }
+        button {
+            display: inline-flex;
+            justify-content: center;
+            gap: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>JavaScript Tutorial 4</h1>
+
+<button type="button" onclick="document.getElementById('My View').style.display='block'">My View</button>    
+<button type="button" onclick="document.getElementById('My Home').style.display='block'">My Home</button>
+<button type="button" onclick="document.getElementById('My Hobby').style.display='block'">My Hobby</button>
+   
+<button onclick="this.innerHTML = Date()">The time is?</button>
+<button onclick="window.print()">Print page</button>
+
+<p img id="My View" src="sunsett.jpg" style="display:none"><img id="My View" src="sunsett.jpg" style="width:500px"></p>
+<p img id="My Home" src="home.jpg" style="display:none"><img id="My Home" src="home.jpg" style="width:500px"></p>
+<p img id="My Hobby" src="hobby.jpg" style="display:none"><img id="My Hobby" src="hobby.jpg" style="width:500px"></p>
+
+</body>
+</html>
